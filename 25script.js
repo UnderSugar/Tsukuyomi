@@ -24,4 +24,4 @@ function learnJS(lang, callback) {
 function done() { // просто рандом функция которую можно использовать в другой функции в которой есть место под колбек
     console.log('Я прошел этот урок');
 }
-learnJS('JavaScript',done); // закинул функцию done (но без её вызова)
+learnJS('JavaScript',done); // закинул функцию done (но без её вызова) 
