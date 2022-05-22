@@ -34,7 +34,7 @@ writeYourGenres();
 
 function rememberMyFilms(){
     for(let i = 0; i < 2; i++){
-        let films = prompt("Один из последних просмотренных фильмов" , "").trim(),
+        let films = prompt("Один из последних просмотренных фильмов" , "").trim(), // trim() устраняет проблемы с пробелами 
             stars = +prompt("На сколько его оцените?", "");
     
         if(films != null && stars != null && films != '' && stars != '' && films.length < 50  ){
