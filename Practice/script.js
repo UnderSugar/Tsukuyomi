@@ -34,10 +34,10 @@ writeYourGenres();
 
 function rememberMyFilms(){
     for(let i = 0; i < 2; i++){
-        let films = prompt("Один из последних просмотренных фильмов" , ""),
+        let films = prompt("Один из последних просмотренных фильмов" , "").trim(),
             stars = +prompt("На сколько его оцените?", "");
     
-        if(films != null && stars != null && films != '' && stars != '' && films.length < 50 ){
+        if(films != null && stars != null && films != '' && stars != '' && films.length < 50  ){
             personalMovieDB.movies[films] = stars;
             console.log('done');
         }else {
