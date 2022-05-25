@@ -16,10 +16,10 @@ const soldier = {
     armor: 100,
     sayHello: function(){console.log("hello");}
 };
-
-const jonh = {
-    health: 100
-};
+const jonh = Object.create(soldier);
+// const jonh = {
+//     health: 100
+// };
 
 // jonh.__proto__ = soldier;
 
