@@ -38,7 +38,7 @@ btns.forEach(btn => {
 const link = document.querySelector('a');
 
 link.addEventListener('click', (e)=> {
-    e.preventDefault();
+    e.preventDefault(); //отменить дефолтное выполнение
 
     console.log(e.target);
 });
