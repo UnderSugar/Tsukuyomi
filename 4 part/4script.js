@@ -45,3 +45,10 @@ btn.addEventListener('click',myAnimation) ;
 //     console.log('Hello');
 //     id = setTimeout(log, 500);
 // }, 500);
+// let count = ' ';
+
+// for (let i = 1 ; i < 4; i ++){
+    
+//     count  += i;
+//     console.log(count);
+// }
