@@ -26,5 +26,5 @@ for(let i = 0; i < 100000; i ++){
 
 let end = new Date();
 
-console.log(start);
-console.log(end);
+// console.log(start);
+console.log(end - start);
